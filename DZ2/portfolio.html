@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Веб студия Web Studio.com</title>
+  </head>
+  <body>
+    <header><!-- Шапка страницы -->
+        <nav><!-- Главная навигация -->
+            <a href="../DZ1/index.html"
+               title="Перейти на главную страницу"
+               class="Web-Studio"><!-- Логотип сайта  -->
+                <span
+                  class="logo-blue"
+                  >Web
+                </span>
+                <span
+                class="black"
+                > Studio
+            </span>
+            </a>
+            <ul class="social-links nav-menu"><!-- Ссылки на другие страницы или разделы текущей -->
+                <li>
+                    <a href="../DZ1/index.html"
+                       title="Перейти в Студию"
+                       class="link"
+                       >Студия
+                    </a>
+                </li><!-- Studio -->
+                <li>
+                    <a href="../DZ2/portfolio.html"
+                       title="Перейти в Портфолио"
+                       class="link"
+                       >Портфолио
+                    </a>
+                </li><!-- Portfolio -->
+                <li>
+                    <a href=""
+                        title="Перейти в Контакты"
+                        class="link"
+                        >Контакты
+                    </a>
+                </li><!-- Contact -->
+            </ul>
+            <ul class="nav-menu"><!-- Ссылки на мгновенные: письмо, звонок -->
+                <li class="social-links"><!-- Ссылка на адрес электронной почты  -->
+                    <img
+                        src="./Portfolio-images/envelope-(hover)-конверт.svg"
+                        alt="envelope-(hover)-конверт.svg"
+                        width="15"
+                        height="8"
+                    />
+                    <a href="info@devstudio.com"
+                       title="Отправить письмо нам"
+                       class="link"
+                       >info@devstudio.com
+                    </a><!-- class="contacts-partition" -->
+                </li>
+                <li class="social-links"><!-- Ссылка на телефонный номер -->
+                    <img src="./Portfolio-images/Vector-силуэт-моб.svg"
+                         alt="силуэт-телефона.svg"
+                         width="7"
+                         height="11"
+                         />
+                    <a href="tel:+380961111111"
+                       title="Совершить звонок"
+                       class="link"
+                       >+38 096 111 11 11
+                    </a><!-- class="contacts-partition" -->
+                </li>
+            </ul>
+        </nav>
+    </header>      
+    <main><!-- Уникальный контент страницы -->
+        <section><!--фильтр портфолио-->
+            <H1>filter</H1>
+            <ul class="filter-links">
+                <li>
+                    <button
+                        type="button"
+                        title="показать все"
+                        class="link category-filter"
+                        >Все
+                    </button>
+                </li><!--Все-->
+                <li>
+                    <button
+                        type="button"
+                        title="только веб-сайты"
+                        class="link category-filter"
+                        >Веб-сайты
+                    </button>
+                </li><!--Веб-сайты-->
+                <li>
+                    <button
+                        type="button"
+                        title="только приложения"
+                        class="link category-filter"
+                        >Приложения
+                    </button>
+                </li><!--Приложения-->
+                <li>
+                    <button
+                        type="button"
+                        title="только дизайн"
+                        class="link category-filter"
+                        >Дизайн
+                    </button>
+                </li><!--Дизайн-->
+                <li>
+                    <button
+                        type="button"
+                        title="только маркетинг"
+                        class="link category-filter"
+                        >Маркетинг
+                    </button>
+                </li><!--Маркетинг-->
+            </ul>
+        </section>
+        <section><!-- портфолио-->
+            <ul class="filter-links">
+                <li>
+                    <a href=""
+                       title="Технокряк">
+                        <div class="link">
+                            <img src="./Portfolio-images/Технокряк.png"
+                                 alt="Ноутбук"
+                                 width="370"
+                                 height="294"
+                            >
+                        </div>
+                        <h2 class="title">Технокряк</h2>
+                        <h3 class="category">Веб-сайт</h3>
+                        <p class="text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые средства конкурентов.</p>
+                    </a>
+                </li><!--Технокряк-->
+                <li>
+                    <a href=""
+                       title="Постер New Orleans vs Golden Star">
+                    <div class="link">
+                        <img src="./Portfolio-images/Постер-New-Orleans-vs-Golden-Star.jpg"
+                             alt="Борьба за мяч"
+                             width="370"
+                             height="294"
+                        >
+                    </div>
+                    <h2 class="title">Постер New Orleans vs Golden Star</h2>
+                    <h3 class="category">Дизайн</h3>
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </a>
+                </li><!--Постер New Orleans vs Golden Star-->
+                <li>
+                    <a href=""
+                       title="Ресторан Seafood">
+                        <div class="link">
+                            <img src="./Portfolio-images/Ресторан-Seafood.jpg"
+                                 alt="силуэт рыбы, надпись Ресторан Seafood"
+                                 width="370"
+                                 height="294"
+                            >
+                        </div>
+                        <h2 class="title">Ресторан Seafood</h2>
+                        <h3 class="category">Приложение</h3>
+                        <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </a>
+                </li><!--Ресторан Seafood-->
+                <li>
+                    <a href=""
+                       title="Проект Prime">
+                        <div class="link">
+                            <img src="./Portfolio-images/Проект-Prime.jpg"
+                                alt="Наушники"
+                                width="370"
+                                height="294"
+                            >
+                        </div>
+                    <h2 class="title">Проект Prime</h2>
+                    <h3 class="category">Маркетинг</h3>
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </a>
+                </li><!--Проект Prime-->
+                <li>
+                    <a href=""
+                       title="Проект Boxes">
+                        <div class="link">
+                            <img src="./Portfolio-images/Проект-Boxes.jpg"
+                                 alt="2 Boxes"
+                                 width="370"
+                                 height="294"
+                            >
+                        </div>
+                        <h2 class="title">Проект Boxes</h2>
+                        <h3 class="category">Приложение</h3>
+                        <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </a>
+                </li><!--Проект Boxes-->
+                <li>
+                    <a href=""
+                       title="Inspiration has no Borders">
+                        <div class="link">
+                            <img src="./Portfolio-images/Inspiration-has-no-Borders.jpg"
+                                alt="Монитор"
+                                width="370"
+                                height="294"
+                            >
+                        </div>
+                        <h2 class="title">Inspiration has no Borders</h2>
+                        <h3 class="category">Веб-сайт</h3>
+                        <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </a>
+                </li><!--Inspiration has no Borders-->
+                <li>
+                    <a href=""
+                       title="Издание Limited Edition">
+                        <div class="link">
+                            <img src="./Portfolio-images/Издание-Limited-Edition.jpg"
+                                 alt="открытый журнал Limited Edition"
+                                 width="370"
+                                 height="294"
+                            >
+                        </div>
+                        <h2 class="title">Издание Limited Edition</h2>
+                        <h3 class="category">Дизайн</h3>
+                        <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </a>
+                </li><!--Издание Limited Edition-->
+                <li>
+                    <a href=""
+                       title="Проект LAB">
+                        <div class="link">
+                            <img src="./Portfolio-images/Проект-LAB.jpg"
+                                alt="Ярлык"
+                                width="370"
+                                height="294"
+                            >
+                        </div>
+                    <h2 class="title">Проект LAB</h2>
+                    <h3 class="category">Маркетинг</h3>
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </a>
+                </li><!--Проект LAB-->
+                <li>
+                    <a href=""
+                       title="Growing Business">
+                        <div class="link">
+                            <img src="./Portfolio-images/Growing-Business.jpg"
+                                 alt="Ноутбук на столе"
+                                 width="370"
+                                 height="294"
+                            >
+                        </div>
+                        <h2 class="title">Growing Business</h2>
+                        <h3 class="category">Приложение</h3>
+                        <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </a>
+                </li><!--Growing Business-->
+            </ul>
+        </section>       
+    </main>
+    <footer><!-- Подвал страницы -->
+        <!-- Логотип сайта  -->
+        <a href="../DZ2/portfolio.html"
+           title="Перейти на главную страницу"
+           class="Web-Studio">
+            <span class="logo-blue">Web</span>
+            <span class="white"> Studio</span>
+        </a>
+            <!-- Адрес и ссылки -->
+        <h2>Контакты</h2>
+        <ul class="contacts">
+            <li>
+                <h3 title="город Киев, пр-т Леси Украинки, 26"
+                    class="white"
+                    >г. Киев, пр-т Леси Украинки, 26
+                </h3>
+            </li>
+            <li class="social-links">
+                <a href="info@example.com"
+                   title="Отправить письмо нам"
+                   class="contacts-partition link"
+                   >example.com.com
+                </a>
+            </li>
+            <li class="social-links"><!-- Ссылка на телефонный номер -->
+                <a href="tel:+380991111111"
+                   title="Совершить звонок"
+                   class="contacts-partition link"
+                   >+38 099 111 11 11
+                </a>
+            </li>
+        </ul>
+        <h2 class="white join">Присоединяйтесь</h2>
+        <ul class="social-links">
+            <li>
+                <img
+                    src="./Portfolio-images/instagram2.svg"
+                    alt="ссылка на instagram"
+                    width="20"
+                    height="20"
+                />
+                <a href="" class="link social-logo">Instagram</a>
+            </li>
+            <li>
+                <img
+                    src="./Portfolio-images/Vector-твитер.svg"
+                    alt="ссылка на Twitter"
+                    width="20"
+                    height="20"
+                />
+                <a href="" class="link social-logo">Twitter</a>
+            </li>
+            <li>
+                <img
+                    src="./Portfolio-images/Facebook1.svg"
+                    alt="ссылка на Facebook"
+                    width="20"
+                    height="20"
+                />
+                <a href="" class="link social-logo">Facebook</a>
+            </li>
+            <li>
+                <img
+                    src="./Portfolio-images/Linkedin1.svg"
+                    alt="ссылка на Linkedin"
+                    width="20"
+                    height="20"
+                />
+                <a href="" class="link social-logo">Linkedin</a>
+            </li>
+        </ul>
+        <h2 class="white join">Подпишитесь на рассылку</h2><!-- Подписка -->
+        <ul>
+            <li>
+                <input type="email"
+                       placeholder="E-mail"
+                       class="Email mail-text"
+                >
+            </li>
+            <li>
+                <button type="button"
+                        class="button-blue white Subscribe"
+                        >Подписаться
+                    <img src="./Portfolio-images/icon-send-самолетик.svg"
+                        alt="отправить"
+                        width="24"
+                        height="24"
+                    />
+                </button>
+            </li>
+        </ul>
+    </footer>
+  </body>
+</html>
